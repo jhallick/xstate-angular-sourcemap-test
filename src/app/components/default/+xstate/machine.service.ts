@@ -6,6 +6,7 @@ export class TestMachine {
     private machine = Machine({
         id: 'test',
         initial: 'boot',
+        context: {},
         states: {
             boot: {
                 on: {
